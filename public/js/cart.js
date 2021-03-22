@@ -196,7 +196,6 @@ var shoppingCart = (function() {
     shoppingCart.addItemToCart(name);
     displayCart();
   })
-  
   // Item count input
   $('.show-cart').on("change", ".item-count", function(event) {
      var name = $(this).data('name');
