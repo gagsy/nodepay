@@ -204,6 +204,5 @@ var shoppingCart = (function() {
     shoppingCart.setCountForItem(name, count);
     displayCart();
   });
-  
   displayCart();
   
